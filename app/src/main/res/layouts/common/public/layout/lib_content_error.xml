@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_centerInParent="true"
+      android:gravity="center_horizontal"
+      android:id="@+id/errorView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tip"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="加载失败，请检查您的网络"
+        android:textColor="@color/text_primary_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/btn_reload"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/main_color_normal"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:text="重新加载"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        />
+  </LinearLayout>
+</RelativeLayout>

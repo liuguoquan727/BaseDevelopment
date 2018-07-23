@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="?selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/margin_24"
+    android:paddingLeft="@dimen/margin_24"
+    android:paddingRight="@dimen/margin_24"
+    android:paddingStart="@dimen/margin_24"
+    >
+
+  <ImageView
+      android:id="@+id/tv_control"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/module_home_selector_quit_item"
+      android:layout_gravity="center_vertical"
+      />
+
+  <TextView
+      android:id="@+id/tv_reason"
+      android:layout_marginLeft="8dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:textSize="@dimen/text_size_16"
+      tools:text="Item"
+      />
+
+</LinearLayout>
